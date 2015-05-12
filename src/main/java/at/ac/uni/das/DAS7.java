@@ -54,6 +54,7 @@ public class DAS7 {
 					break;
 
 				default:
+					stop=true;
 					break;
 			}
 		}
