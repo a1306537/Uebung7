@@ -25,7 +25,8 @@ public class DAS7 {
 		for(int i=1; i<=2;i++){
 		
 			System.out.println("Bitte geben Sie den Dateipfad zur "+i+".Datei ein:");
-			String pfad = sc.next();
+			//String pfad = sc.next();
+			String pfad="/home/losfamos/git/Uebung7/Datei"+i+".txt";
 			importDatei(pfad, i);
 		}
 		
