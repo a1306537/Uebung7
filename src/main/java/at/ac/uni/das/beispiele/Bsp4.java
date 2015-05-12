@@ -1,4 +1,4 @@
-package at.ac.uni.das;
+package at.ac.uni.das.beispiele;
 
 import java.util.List;
 

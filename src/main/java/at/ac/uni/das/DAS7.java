@@ -8,6 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import at.ac.uni.das.beispiele.Bsp2;
+import at.ac.uni.das.beispiele.Bsp3;
+import at.ac.uni.das.beispiele.Bsp4;
+import at.ac.uni.das.beispiele.Bsp5;
+import at.ac.uni.das.beispiele.Bsp6;
+
 public class DAS7 {
 
 	private static Scanner sc= new Scanner(System.in);
