@@ -28,7 +28,8 @@ public class DAS7 {
 			
 				System.out.println("Bitte geben Sie den Dateipfad zur "+i+".Datei ein:");
 	//			String pfad = sc.next();
-				String pfad="C:/Users/markus/Desktop/Dokumente/Dropbox/Markus/markus-studium/Studium_4se/DAS/Übung/Übungsblatt7/Uebung7/Datei"+i+".txt";
+	//			String pfad="C:/Users/markus/Desktop/Dokumente/Dropbox/Markus/markus-studium/Studium_4se/DAS/Übung/Übungsblatt7/Uebung7/Datei"+i+".txt";
+				String pfad="/home/losfamos/git/Uebung7/Datei"+i+".txt";
 				importDatei(pfad, i);
 			}
 			
