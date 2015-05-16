@@ -1,0 +1,6 @@
+linux:
+chmod a+x BlackScholeModel.jar
+java -jar BlackScholeModel.jar
+
+windows:
+java -jar BlackScholeModel.jar
