@@ -32,7 +32,7 @@
   </dependencies>
   
   <build>
-    <finalName>BlackScholeModel</finalName>
+    <finalName>DAS_Uebung7</finalName>
       
     <plugins>
      <plugin>
