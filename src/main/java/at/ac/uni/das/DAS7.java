@@ -27,9 +27,9 @@ public class DAS7 {
 			for(int i=1; i<=2;i++){
 			
 				System.out.println("Bitte geben Sie den Dateipfad zur "+i+".Datei ein:");
-	//			String pfad = sc.next();
-	//			String pfad="C:/Users/markus/Desktop/Dokumente/Dropbox/Markus/markus-studium/Studium_4se/DAS/Übung/Übungsblatt7/Uebung7/Datei"+i+".txt";
-				String pfad="/home/losfamos/git/Uebung7/Datei"+i+".txt";
+				String pfad = sc.next();
+//				String pfad="C:/Users/markus/Desktop/Dokumente/Dropbox/Markus/markus-studium/Studium_4se/DAS/Übung/Übungsblatt7/Uebung7/Datei"+i+".txt";
+//				String pfad="/home/losfamos/git/Uebung7/Datei"+i+".txt";
 				importDatei(pfad, i);
 			}
 			
@@ -69,7 +69,10 @@ public class DAS7 {
 				}
 			}
 		} catch(InputMismatchException ex){
-		} catch(Exception ex){}
+			System.exit(0);
+		} catch(Exception ex){
+			System.exit(0);
+		}
 
 	}
 	
@@ -89,11 +92,11 @@ public class DAS7 {
 			}
 			
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.exit(1);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.exit(1);
 		}
 		
 	}
